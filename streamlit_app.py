@@ -110,7 +110,7 @@ elif page == "Export Prompts":
     export_md = ""
     export_json = []
     for _, row in df.iterrows():
-        export_md += f"# {row['title']}
+        export_md += f"# {row['title']}\n"
 "
         export_md += f"**Application**: {row['application']}
 
